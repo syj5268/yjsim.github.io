@@ -61,7 +61,7 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-        <div id="post-toc" class="post-toc"></div>
+        {% toc %}
       </div>
       <hr>
     {% endif %}
