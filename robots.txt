@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yjsim.github.io/sitemap.xml
+Sitemap: https://syj5268.github.io/sitemap.xml
