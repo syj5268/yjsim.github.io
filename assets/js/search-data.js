@@ -23,12 +23,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/publications/";
               },
-            },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-kaist-comet-lab-comet",
+            },{id: "news-joined-kaist-comet-lab-comet",
           title: 'Joined KAIST COMET Lab :comet:',
           description: "",
           section: "News",},{id: "news-neurips-2025-workshop-paper-accepted-poster",
