@@ -2,6 +2,15 @@
  * CV shared styles
  *****************************/
 
+@use "sass:color" as color;
+
+/* CV-specific accent: mix blue and navy for a pleasant accent color */
+$cv-accent: color.mix($blue-color, $blue-color-dark, 50%);
+
+.cv {
+  --cv-accent-color: #{$cv-accent};
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }
@@ -33,9 +42,40 @@ a.btncv {
 }
 
 a.btncv:hover {
-  color: var(--global-theme-color) !important;
-  border-color: var(--global-theme-color) !important;
+  color: var(--cv-accent-color) !important;
+  border-color: var(--cv-accent-color) !important;
   text-decoration: none !important;
+}
+
+/* CV links: keep links clickable without visible underlines; use color change to indicate hover */
+.cv a {
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition: color 0.12s ease-in-out, border-color 0.12s ease-in-out;
+  color: var(--global-theme-color);
+}
+
+.cv a:hover,
+.cv a:focus {
+  text-decoration: none !important;
+  color: var(--cv-accent-color);
+  border-bottom-color: transparent;
+}
+
+/* Override CV element colors to use the blended accent where appropriate */
+.cv td.list-group-category,
+.cv td.list-group-category-icon,
+.cv span.badge-toc,
+.cv i.iconlocation,
+.cv i.iconinstitution,
+.cv i.icondepartment {
+  color: var(--cv-accent-color);
+}
+
+/* Ensure bolded skill category titles keep the CV accent color */
+.cv td.list-group-category strong {
+  color: var(--cv-accent-color);
+  font-weight: 700;
 }
 
 /*****************************

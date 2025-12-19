@@ -18,8 +18,12 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
+// Preserve original purple as a theme variable and add a navy alternative
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+
+// Navy blue for alternative theme accents
+$navy-blue-color: #003366 !default;
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
@@ -34,7 +38,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($navy-blue-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

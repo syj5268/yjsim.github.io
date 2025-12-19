@@ -42,14 +42,16 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <hr aria-hidden="true" style="border:0;height:1px;background:#e9ecef;margin:2rem 0;">
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit"><strong>🔥NEWS</strong></a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
+      <hr aria-hidden="true" style="border:0;height:1px;background:#e9ecef;margin:2rem 0;">
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -58,14 +60,16 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr aria-hidden="true" style="border:0;height:1px;background:#e9ecef;margin:2rem 0;">
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><strong>📄PUBLICATIONS</strong></a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->
     {% if page.social %}
+      <hr aria-hidden="true" style="border:0;height:1px;background:#e9ecef;margin:2rem 0;">
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
