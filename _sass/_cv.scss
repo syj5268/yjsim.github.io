@@ -51,7 +51,9 @@ a.btncv:hover {
 .cv a {
   text-decoration: none !important;
   border-bottom: 1px solid transparent;
-  transition: color 0.12s ease-in-out, border-color 0.12s ease-in-out;
+  transition:
+    color 0.12s ease-in-out,
+    border-color 0.12s ease-in-out;
   color: var(--global-theme-color);
 }
 

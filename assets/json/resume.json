@@ -1,204 +1,189 @@
 {
-	"basics": {
-		"name": "Yoonju Sim",
-		"label": "PhD Candidate in Industrial Management and Engineering",
-		"image": "",
-		"email": "syj5268@kaist.ac.kr",
-		"url": "https://github.com/syj5268",
-		"location": {
-			"address": "",
-			"postalCode": "",
-			"city": "Daejeon",
-			"countryCode": "KR",
-			"region": "South Korea"
-		},
-		"profiles": [
-			{
-				"network": "GitHub",
-				"username": "syj5268",
-				"url": "https://github.com/syj5268"
-			},
-			{
-				"network": "LinkedIn",
-				"username": "yoonju-sim",
-				"url": "https://www.linkedin.com/in/yoonju-sim"
-			}
-		]
-	},
-	"education": [
-		{
-			"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-			"location": "Daejeon, South Korea",
-			"url": "",
-			"area": "Industrial Management and Engineering",
-			"studyType": "Combined MS & PhD Student",
-			"startDate": "2023-08-01",
-			"endDate": "",
-			"score": "",
-			"courses": []
-		},
-		{
-			"institution": "Korea University (KU)",
-			"location": "Seoul, South Korea",
-			"url": "",
-			"area": "Industrial Engineering",
-			"studyType": "Bachelor of Science",
-			"startDate": "2019-03-01",
-			"endDate": "2023-08-01",
-			"GPA": "4.4/4.5",
-			"courses": []
-		},
-		{
-			"institution": "Arizona State University (Exchange)",
-			"location": "Arizona, USA",
-			"url": "",
-			"area": "Industrial Engineering",
-			"studyType": "Exchange Student",
-			"startDate": "2022-01-01",
-			"endDate": "2022-05-01",
-			"score": "",
-			"courses": []
-		}
-	],
-	"work": [
-		{
-			"name": "Computational Optimization Methods (COMET) Lab, KAIST",
-			"position": "Combined MS & PhD Student",
-			"url": "http://comet.kaist.ac.kr/",
-			"startDate": "2023-08-01",
-			"endDate": ""
-		},
-		{
-			"name": "SAP Korea",
-			"position": "Presales Intern — Procurement Business Team",
-			"url": "",
-			"startDate": "2023-01-01",
-			"endDate": "2023-07-01"
-		},
-		{
-			"name": "SAP Korea",
-			"position": "Presales Intern — Technology Team",
-			"url": "",
-			"startDate": "2022-07-01",
-			"endDate": "2022-12-01"
-		}
-	],
-	"publications": [
-		{
-			"name": "Test-Time Search for Neural Graph Coarsening Procedures for the CVRP",
-			"publisher": "Under Review",
-			"releaseDate": "2025-10-22",
-			"url": "https://arxiv.org/abs/2510.00958",
-			"summary": "Preprint submitted to Transportation Science (INFORMS), under review."
-		}
-	],
-	"projects": [
-		{
-			"name": "AI-accelerated Production Planning",
-			"summary": "Developed an AI-accelerated Lagrangian relaxation model for CLSP, achieving near-optimal solutions and supporting fast 3-month production planning.",
-			"highlights": [],
-			"startDate": "2025-02-01",
-			"endDate": "2025-09-01",
-			"url": ""
-		},
-		{
-			"name": "UAM Simulation — GS E&C",
-			"summary": "Designed and implemented Python-based simulation to analyze UAM vertiport capacity, optimizing gate/FATO configurations using queueing and event-based modeling.",
-			"highlights": [],
-			"startDate": "2023-09-01",
-			"endDate": "2023-12-01",
-			"url": ""
-		},
-		{
-			"name": "Supplier Performance Management System",
-			"summary": "Conducted research and led a team to develop a supplier performance management system (IME Department, Korea University).",
-			"highlights": [],
-			"startDate": "2023-01-01",
-			"endDate": "2023-01-31",
-			"url": ""
-		},
-		{
-			"name": "RUL Prediction and Anomaly Detection",
-			"summary": "Predicted residual life of equipment using unsupervised learning on sensor data; won 1st prize in department competition.",
-			"highlights": [],
-			"startDate": "2022-09-01",
-			"endDate": "2022-12-01",
-			"url": ""
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "Industrial Engineering Study Club (WeTIE), Korea University",
-			"location": "Korea University",
-			"position": "Vice President",
-			"url": "",
-			"startDate": "2023-01-01",
-			"endDate": "2023-12-31",
-			"highlights": []
-		}
-	],
-	"awards": [
-		{
-			"title": "Excellence Award — Poster Competition for Industrial/Social Problem Solving",
-			"date": "2025-11-18",
-			"awarder": "Department of Industrial and Systems Engineering, KAIST",
-			"url": "",
-			"summary": "Excellence Award for poster competition."
-		}
-	],
-	"certificates": [],
-	"skills": [
-		{
-			"name": "Programming",
-			"level": "Advanced",
-			"icon": "",
-			"keywords": [
-				"Python",
-				"Julia"
-			]
-		},
-		{
-			"name": "Research Methods",
-			"level": "Advanced",
-			"icon": "",
-			"keywords": [
-				"Mixed-Integer Programming",
-				"Large-scale Optimization",
-				"Machine Learning",
-				"LLMs"
-			]
-		}
-	],
-	"languages": [
-		{
-			"language": "Korean",
-			"fluency": "Native",
-			"icon": ""
-		},
-		{
-			"language": "English",
-			"fluency": "Fluent",
-			"icon": ""
-		}
-	],
-	"interests": [
-		{
-			"name": "Optimization",
-			"icon": "",
-			"keywords": [
-				"Vehicle Routing",
-				"Decomposition Methods",
-        "Quantum Computing"
-			]
-		},
+  "basics": {
+    "name": "Yoonju Sim",
+    "label": "PhD Candidate in Industrial Management and Engineering",
+    "image": "",
+    "email": "syj5268@kaist.ac.kr",
+    "url": "https://github.com/syj5268",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Daejeon",
+      "countryCode": "KR",
+      "region": "South Korea"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "syj5268",
+        "url": "https://github.com/syj5268"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "yoonju-sim",
+        "url": "https://www.linkedin.com/in/yoonju-sim"
+      }
+    ]
+  },
+  "education": [
     {
-			"name": "AI",
-			"icon": "",
-			"keywords": [
-        "Large Language Models (LLMs)",
-        "Reinforcement Learning"
-			]
-		}
-	],
-	"references": []
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "location": "Daejeon, South Korea",
+      "url": "",
+      "area": "Industrial Management and Engineering",
+      "studyType": "Combined MS & PhD Student",
+      "startDate": "2023-08-01",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Korea University (KU)",
+      "location": "Seoul, South Korea",
+      "url": "",
+      "area": "Industrial Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-03-01",
+      "endDate": "2023-08-01",
+      "GPA": "4.4/4.5",
+      "courses": []
+    },
+    {
+      "institution": "Arizona State University (Exchange)",
+      "location": "Arizona, USA",
+      "url": "",
+      "area": "Industrial Engineering",
+      "studyType": "Exchange Student",
+      "startDate": "2022-01-01",
+      "endDate": "2022-05-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "name": "Computational Optimization Methods (COMET) Lab, KAIST",
+      "position": "Combined MS & PhD Student",
+      "url": "http://comet.kaist.ac.kr/",
+      "startDate": "2023-08-01",
+      "endDate": ""
+    },
+    {
+      "name": "SAP Korea",
+      "position": "Presales Intern — Procurement Business Team",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2023-07-01"
+    },
+    {
+      "name": "SAP Korea",
+      "position": "Presales Intern — Technology Team",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Test-Time Search for Neural Graph Coarsening Procedures for the CVRP",
+      "publisher": "Under Review",
+      "releaseDate": "2025-10-22",
+      "url": "https://arxiv.org/abs/2510.00958",
+      "summary": "Preprint submitted to Transportation Science (INFORMS), under review."
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-accelerated Production Planning",
+      "summary": "Developed an AI-accelerated Lagrangian relaxation model for CLSP, achieving near-optimal solutions and supporting fast 3-month production planning.",
+      "highlights": [],
+      "startDate": "2025-02-01",
+      "endDate": "2025-09-01",
+      "url": ""
+    },
+    {
+      "name": "UAM Simulation — GS E&C",
+      "summary": "Designed and implemented Python-based simulation to analyze UAM vertiport capacity, optimizing gate/FATO configurations using queueing and event-based modeling.",
+      "highlights": [],
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "url": ""
+    },
+    {
+      "name": "Supplier Performance Management System",
+      "summary": "Conducted research and led a team to develop a supplier performance management system (IME Department, Korea University).",
+      "highlights": [],
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-31",
+      "url": ""
+    },
+    {
+      "name": "RUL Prediction and Anomaly Detection",
+      "summary": "Predicted residual life of equipment using unsupervised learning on sensor data; won 1st prize in department competition.",
+      "highlights": [],
+      "startDate": "2022-09-01",
+      "endDate": "2022-12-01",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Industrial Engineering Study Club (WeTIE), Korea University",
+      "location": "Korea University",
+      "position": "Vice President",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Excellence Award — Poster Competition for Industrial/Social Problem Solving",
+      "date": "2025-11-18",
+      "awarder": "Department of Industrial and Systems Engineering, KAIST",
+      "url": "",
+      "summary": "Excellence Award for poster competition."
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "",
+      "keywords": ["Python", "Julia"]
+    },
+    {
+      "name": "Research Methods",
+      "level": "Advanced",
+      "icon": "",
+      "keywords": ["Mixed-Integer Programming", "Large-scale Optimization", "Machine Learning", "LLMs"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Optimization",
+      "icon": "",
+      "keywords": ["Vehicle Routing", "Decomposition Methods", "Quantum Computing"]
+    },
+    {
+      "name": "AI",
+      "icon": "",
+      "keywords": ["Large Language Models (LLMs)", "Reinforcement Learning"]
+    }
+  ],
+  "references": []
 }

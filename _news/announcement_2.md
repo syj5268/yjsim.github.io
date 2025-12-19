@@ -12,4 +12,4 @@ I am happy to share that our paper has been accepted to the **NeurIPS 2025 Works
 
 The poster presented at the workshop is shown below.
 
-**🖼 Poster (PDF):**  [View poster]({{ site.baseurl }}/assets/pdf/2025_Neurips_YoonjuSim_Poster.pdf)
+**🖼 Poster (PDF):** [View poster]({{ site.baseurl }}/assets/pdf/2025_Neurips_YoonjuSim_Poster.pdf)
