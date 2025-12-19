@@ -1,6 +1,6 @@
 # Yoonju Sim's Website
 
-Yoonju Sim — PhD candidate (KAIST). Website source for https://yjsim.github.io/.
+Yoonju Sim — PhD candidate (KAIST). Website source for https://syj5268.github.io/.
 
 Edit content in `_pages/`, `_includes/`, `_data/` and `assets/` and rebuild with Jekyll or Docker.
 
