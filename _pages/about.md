@@ -26,5 +26,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Yoonju Sim is a PhD candidate in Industrial Management and Engineering at KAIST and a member of the [Computational Optimization Methods (COMET) Lab](http://comet.kaist.ac.kr/) led by [Prof. C Kwon](https://www.chkwon.net/).
+Yoonju Sim is a PhD candidate in Industrial and Systems Engineering at KAIST and a member of the [Computational Optimization Methods (COMET) Lab](http://comet.kaist.ac.kr/) led by [Prof. C Kwon](https://www.chkwon.net/).
 Her research focuses on designing AI-assisted algorithms for solving large-scale discrete optimization problems, particularly vehicle routing, but also broader MILP-based models. She uses techniques such as cutting planes and column generation together with AI, machine learning, and large language models (LLMs). Her goal is to build faster and more adaptive optimization methods by integrating classical OR principles with modern learning-based strategies.
