@@ -1,3 +1,7 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  <h3>Published</h3>
+  {% bibliography --group_by none --query @article[selected=true] %}
+
+  <h3>Under Review</h3>
+  {% bibliography --group_by none --query @unpublished[selected=true] %}
 </div>

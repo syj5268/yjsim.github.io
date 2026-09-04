@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: PUBLICATIONS
-description: This page contains publications and papers under review.
+title: PAPERS
+description: This page contains published papers and papers under review.
 nav: false
 nav_order: 2
 ---
@@ -15,6 +15,12 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Published</h2>
+
+{% bibliography --group_by none --query @article %}
+
+<h2>Under Review</h2>
+
+{% bibliography --group_by none --query @unpublished %}
 
 </div>
