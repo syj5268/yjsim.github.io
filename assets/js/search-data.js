@@ -31,7 +31,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{
+            },},{id: "news-our-paper-llm-driven-algorithm-design-for-quantum-circuit-synthesis-based-on-binary-decision-diagrams-was-accepted-as-is-by-tmlr",
+          title: 'Our paper LLM-Driven Algorithm Design for Quantum Circuit Synthesis based on Binary Decision...',
+          description: "",
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
