@@ -81,7 +81,8 @@
       "name": "LLM-Driven Algorithm Design for Quantum Circuit Synthesis based on Binary Decision Diagrams",
       "authors": "Yoonju Sim, Federico Berto, Chuanbo Hua, Jinkyoo Park, and Changhyun Kwon",
       "publisher": "Transactions on Machine Learning Research (TMLR)",
-      "year": "2026"
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2609.05327"
     }
   ],
   "under_review": [
